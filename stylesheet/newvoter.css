@@ -1,0 +1,75 @@
+body{
+	margin:0;
+	padding:0;
+	background-image: url(photos/c.jpg);
+
+	background-size:cover;
+}
+
+.e1
+{
+	position: absolute;
+	 top:10%;
+	 left:40%;
+	 color:#00bfff;
+	 	font-family: 'Lato', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
+
+.e2
+{
+	position: absolute;
+	  top:20%;
+	   left:40%;
+	   width: 450px;
+	   transform:(-50%,-50%);
+	   	 box-sizing: border-box;
+	 border-radius: 10px;
+	 background: rgba(0,0,0,.001);
+}
+.e2 p
+{
+	 color: White;
+	   font-size:15px;
+	   font-weight:bold;
+   		font-family: 'Lato', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
+.e2 input
+{
+	margin-bottom: 20px;
+}
+.e2 input[type="text"],
+.e2 input[type="e-mail"],
+.e2 input[type="date"]
+{
+	border:none;
+	border-bottom: 1px solid #00bfff;
+	background:transparent;
+	outline:none;
+	color:white;
+	font-size:20px;	
+}
+.e2 input[type="submit"]
+{
+	border:none;
+	outline: none;
+	background:transparent;
+	border:1px solid #00bfff;
+	height:45px;
+	width:450px;
+	color:white;
+	 font-weight:bold;
+   		font-family: 'Lato', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+	 
+}
+.e2 input[type="submit"]:hover
+{
+	outline:none;
+	background:white;
+	border-radius:20px;
+	color:#00bfff;
+	
+}
+

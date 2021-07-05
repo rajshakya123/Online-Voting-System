@@ -1,0 +1,99 @@
+body{
+	
+	margin:0;
+	padding:0;
+	background-color:lightblue;
+	background-size: cover;
+	background-position: center;
+	
+	font-family: Arial;
+}
+.main{
+	width: 350px;
+	height: 565px;
+	background: black;
+	border-radius:20px;
+	color: #fff;
+	top: 50%;
+	left: 30%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 30px 30px;
+	background:rgba(0,0,0,0.8);
+}
+h1{
+	margin:0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size:30px;
+}
+.main p{
+	margin:0;
+	padding:0;
+	font-weight:bold;
+}
+.main input{
+	width:100%;
+	margin-bottom:20px;
+	
+}
+.main input[type="text"],input[type="number"]
+{
+	border:none;
+	border-bottom:1px solid #fff;
+	background: transparent;
+	outline:none;
+	height:40px;
+	color:#fff;
+	font-size:16px;
+}
+.main input[type="submit"]
+{
+	border:none;
+	outline:none;
+	height:40px;
+	background:#fb2525;
+	color:#fff;
+	font-size:18px;
+	border-radius:20px;
+	
+}
+.main input[type="submit"]:hover
+{
+	cursor:pointer;
+	background:#ffc107;
+	color:#000;
+	
+}
+#tag{
+	float:right;
+	list-style-type:none;
+	margin-top:100px;
+	margin-right:300px;
+	margin-bottom:20px;
+	border:1px solid black;
+	height:400px;
+	width:250px;
+}
+#tag li{
+	padding-top: 50px;
+	display:block;
+	margin-bottom:20px;
+}
+
+#tag li a{
+	text-decoration:none;
+	color:#fff;
+	padding: 5px 20px;
+	border:  1px solid #fff;
+	transition:0.6s ease;
+	
+}
+
+#tag li a:hover
+{
+	background-color: white;
+	color:#000;
+	
+}
